@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.filters{
+    padding-left: 40px;padding-top: 40px;
+    color: #333333;
+}
+
+.dropdown> button{
+border: none;
+width: 250px;
+}
+.dropdown-menu>li>a>button{
+    display: flex;
+}
+.dropdown-menu>li{
+    display:inline-flex;
+    border: none;
+}
+.dropdown-menu>li>a>button{
+    border: 1px solid rgba(20, 19, 19, 0.34);
+    background-color: whitesmoke;
+    color: #DC3558;
+    padding-left: -10px;
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+.browseby{
+    background-color:#f1f1f1;
+    border: 1px solid  #DC3558;
+    color: #DC3558;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 30px;
+    width: 250px;
+}
+.movies2>h3{
+    /* position: absolute; */
+    margin-top: -276px;
+    color: #333333;
+    padding-left: 350px;
+}
+.movies2>ul{
+
+    display: inline-flex;
+    margin-left: 320px;
+    
+}
+.movies2>ul>li{
+    list-style: none;
+    height: 100px;
+
+    padding: 10px;
+}
+.movies2>ul>li>a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    padding: 8px;
+    height: 100px;
+    font-size: small;
+    color: #DC3558;
+}
+.movies2>h2{
+    margin-left: 350px;
+    margin-top: -50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    height: 80px;
+    width: 850px;
+    font-size:larger;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.movies2>p{
+    margin-left: 900px;
+    margin-top: -60px;  
+}
+.movies2>p>a{
+    text-decoration: none;
+    color: #DC3558;   
+    font-weight: 400;
+}
+
+/* mediq quaries  tab 425px to 769px*/
+@media screen and (min-width:425px) and (max-width:769px) {
+    #banner{
+        width: 100%;
+    }
+    .filters{
+        margin-top: -250px;
+        display: block;
+    }
+    .movies2{
+        display:none ;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -350px;
+        
+    }
+    .movies2>h3{
+        font-size: x-small;
+    }
+    .movies2>ul>li{
+        font-size: x-small;
+    }
+    .row{
+        display:inline-block;
+        margin-left: -100px;
+    }
+    .col2{
+        margin-left: -100px;
+    }
+    #three{
+        margin-left: -170px;
+    }
+    #four{
+        margin-left: -280px;
+    
+    }
+
+    
+}

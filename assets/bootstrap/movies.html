@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <link rel="stylesheet" href="/assets/css/movies.css">
+    </head>
+
+<body style="background-color: rgba(255, 255, 255, 0.767);">
+
+    <!-- carousel -->
+    <div style=" margin-top: 30px; height: 330px;" id="banner">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner" style=" height: 90%; padding-top: 10px; width: 99%; padding-left: 15px;">
+                <div class="carousel-item active">
+                    <img src="/assets/uploads/banners/1banner" style="border-radius: 10px;" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/uploads/banners/31banner.avif" style="border-radius: 10px;" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/uploads/banners/2banner.avif" style="border-radius: 10px;" class="d-block w-100"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <!-- filters -->
+    <h3 class="filters" >Filters</h3>
+    <!-- dropdown 1 -->
+     <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:rgb(241, 241, 241); color: black; border-radius:2px;  height: 45px; margin-top:10px;   margin-left: 50px;">
+          Languages &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clear 
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><button>English</button></a></li>
+          <li><a class="dropdown-item" href="#"><button>Telugu</button></a></li><br>
+          <li><a class="dropdown-item" href="#"><button>Hindi</button></a></li>
+          <li><a class="dropdown-item" href="#"><button>Malayalam</button></a></li> <br>
+          <li><a class="dropdown-item" href="#"><button>Japanese</button></a></li>
+          <li><a class="dropdown-item" href="#"><button>Gujarathi</button></a></li>  <br>
+          <li><a class="dropdown-item" href="#"><button>Marathi</button></a></li>
+
+        </ul>
+      </div> 
+<!-- dropdown 2 -->
+ <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:rgb(241, 241, 241); color: black; border-radius:2px;  height: 45px; margin-top: 20px;   margin-left: 50px;">
+        Genres      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clear 
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#"><button>Drama</button></a></li>
+      <li><a class="dropdown-item" href="#"><button>Action</button></a></li><br>
+      <li><a class="dropdown-item" href="#"><button>thriller</button></a></li>
+      <li><a class="dropdown-item" href="#"><button>Comedy</button></a></li> <br>
+      <li><a class="dropdown-item" href="#"><button>Romantic</button></a></li>
+      <li><a class="dropdown-item" href="#"><button>Adventure</button></a></li>  <br>
+      <li><a class="dropdown-item" href="#"><button>Fantacy</button></a></li>
+      <li><a class="dropdown-item" href="#"><button>Musical</button></a></li> <br>
+      <li><a class="dropdown-item" href="#"><button>Biography</button></a></li>   
+      <li><a class="dropdown-item" href="#"><button>Sci-Fi</button></a></li>    <br>
+      <li><a class="dropdown-item" href="#"><button>Animation</button></a></li>
+      <li><a class="dropdown-item" href="#"><button>Historical</button></a></li>   <br>
+      <li><a class="dropdown-item" href="#"><button>Horror</button></a></li>  
+      <li><a class="dropdown-item" href="#"><button>Superhero</button></a></li>   <br>
+      <li><a class="dropdown-item" href="#"><button>Anime</button></a></li>  
+      <li><a class="dropdown-item" href="#"><button>Classic</button></a></li> <br>
+      <li><a class="dropdown-item" href="#"><button>Family</button></a></li>   
+      <li><a class="dropdown-item" href="#"><button>Mystery</button></a></li> <br>
+      <li><a class="dropdown-item" href="#"><button>Suspence</button></a></li>
+
+
+    </ul>
+  </div> 
+     <!-- dropdown 3 -->
+
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color:rgb(241, 241, 241); color: black; border-radius:2px;  height: 45px; margin-top: 20px;   margin-left: 50px;">
+            Languages &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clear 
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><button>English</button></a></li>
+          <li><a class="dropdown-item" href="#"><button>Telugu</button></a></li><br>
+          <li><a class="dropdown-item" href="#"><button>Hindi</button></a></li>
+          <li><a class="dropdown-item" href="#"><button>Malayalam</button></a></li> <br>
+          <li><a class="dropdown-item" href="#"><button>Japanese</button></a></li>
+          <li><a class="dropdown-item" href="#"><button>Gujarathi</button></a></li>  <br>
+          <li><a class="dropdown-item" href="#"><button>Marathi</button></a></li>
+        </ul>
+      </div>
+      <button class="browseby"> Browse by Cinemas</button> 
+
+<!-- MOVIES IN HYDERABAD -->
+ <div class="movies2">
+<h3 >Movies In Hyderabad</h3>
+
+<ul>
+    <li><a href="">English</a></li>
+    <li><a href="">Telugu</a></li>
+    <li><a href="">Hindi</a></li>
+    <li><a href="">Malayalam</a></li>
+    <li><a href="">Japanese</a></li>
+    <li><a href="">Gujarathi</a></li>
+    <li><a href="">Marathi</a></li>
+</ul> 
+
+ <h2 class="Comingsoon">Coming Soon</h2>
+<p>  <a href="https://in.bookmyshow.com/explore/upcoming-movies-hyderabad?referrerBase=movies"> Explore Upcoming Movies  > </a></p>
+</div>
+</div> 
+<!-- cards -->
+
+ <div class="container text-center w-50  mt-5" style="flex-wrap: wrap; align-content: center;">
+    <div class="row align-items">
+      <div class="col-4 md-12" >
+        <div class="card" style="width: 12rem;  border: none; margin-left: 20px;">
+            <img src="/assets/uploads/images/hanuman.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Hanu-Man</h5>
+              <p class="card-text">UA  <br> Telugu,Hindi,Tamil,Kannada</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-1  md-12">
+        <div class="card" style="width: 12rem;  border: none;  margin-left: 30px;">
+            <img src="/assets/uploads/images/biravakona.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Ooru Peru Bhairavakona</h5>
+              <p class="card-text">UA  <br> Telugu</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-2   " id="three" style="justify-content: center; align-items: center;">
+        <div class="card" style="width: 12rem;  border: none; margin-left: 200px;">
+            <img src="/assets/uploads/images/Eagle.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Eagle</h5>
+              <p class="card-text">UA  <br> Telugu</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-4    md-12" id="four">
+        <div class="card" style="width: 12rem;  border: none;  margin-left: 310px;">
+            <img src="/assets/uploads/images/madame web.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Madame Web</h5>
+              <p   class="card-text">UA <br> English,Hindi,Tamil</p>
+            </div>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <!-- row 2 -->
+
+   <div class="container text-center w-50  mt-5">
+    <div class="row">
+      <div class="col-4" >
+        <div class="card" style="width: 12rem;  border: none; margin-left: 20px;">
+            <img src="/assets/uploads/images/fighter.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Fighter</h5>
+              <p class="card-text">UA  <br> Hindi</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-1">
+        <div class="card" style="width: 12rem;  border: none;  margin-left: 30px;">
+            <img src="/assets/uploads/images/12th fail.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">12th Fail</h5>
+              <p class="card-text">UA  <br>Hindi,Tamil,Kannada</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-2" id="three">
+        <div class="card" style="width: 12rem;  border: none; margin-left: 200px;">
+            <img src="/assets/uploads/images/bramayugam.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Bramayugam</h5>
+              <p class="card-text">UA  <br> Malayalam</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-4" id="four">
+        <div class="card" style="width: 12rem;  border: none;  margin-left: 310px;">
+            <img src="/assets/uploads/images/dune.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Dune:Part Two</h5>
+              <p   class="card-text">UA  English,Hindi</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div> 
+  <!-- row 3 -->
+  
+
+   <div class="container text-center w-50  mt-5">
+    <div class="row">
+      <div class="col-4" >
+        <div class="card" style="width: 12rem;  border: none; margin-left: 20px;">
+            <img src="/assets/uploads/images/siddarth roy.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Siddarth Roy</h5>
+              <p class="card-text">A  <br> Telugu</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-1">
+        <div class="card" style="width: 12rem;  border: none;  margin-left: 30px;">
+            <img src="/assets/uploads/images/bob marley.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">ob Marley:One Love</h5>
+              <p class="card-text">UA  <br> English</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-2"   id="three">
+        <div class="card" style="width: 12rem;  border: none; margin-left: 200px;">
+            <img src="/assets/uploads/images/oppenhimer.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Oppenheimer</h5>
+              <p class="card-text">UA  <br> English,Hindi</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-4" id="four">
+        <div class="card" style="width: 12rem;  border: none;  margin-left: 310px;">
+            <img src="/assets/uploads/images/land of bad.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+            <div class="card-body">
+              <h5 class="card-title">Land of Bad</h5>
+              <p   class="card-text">A  English</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div> 
+    <!-- row 3 -->
+
+
+     <div class="container text-center w-50  mt-5">
+      <div class="row">
+        <div class="col-4" >
+          <div class="card" style="width: 12rem;  border: none; margin-left: 20px;">
+              <img src="/assets/uploads/images/okkadu.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+              <div class="card-body">
+                <h5 class="card-title">Okkadu</h5>
+                <p class="card-text">U  <br> Telugu</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-1">
+          <div class="card" style="width: 12rem;  border: none;  margin-left: 30px;">
+              <img src="/assets/uploads/images/oye.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+              <div class="card-body">
+                <h5 class="card-title">Oye</h5>
+                <p class="card-text">U  <br> Telugu</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-2" id="three">
+          <div class="card" style="width: 12rem;  border: none; margin-left: 200px;">
+              <img src="/assets/uploads/images/surya krishnan.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+              <div class="card-body">
+                <h5 class="card-title">Surya S/0 Krishnan</h5>
+                <p class="card-text">U  <br> Telugu</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-4" id="four">
+          <div class="card" style="width: 12rem;  border: none;  margin-left: 310px;">
+              <img src="/assets/uploads/images/dubai srinu.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+              <div class="card-body">
+                <h5 class="card-title">Dubai Seenu</h5>
+                <p   class="card-text">UA Telugu</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div> 
+
+           <!-- row 4 -->
+
+
+            <div class="container text-center w-50  mt-5">
+            <div class="row">
+              <div class="col-4" >
+                <div class="card" style="width: 12rem;  border: none; margin-left: 20px;">
+                    <img src="/assets/uploads/images/titanic.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Titanic</h5>
+                      <p class="card-text">UA  <br> English,Hindi,Tamil</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-1">
+                <div class="card" style="width: 12rem;  border: none;  margin-left: 30px;">
+                    <img src="/assets/uploads/images/migration.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Migration</h5>
+                      <p class="card-text">U  <br> English</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-2"  id="three">
+                <div class="card" style="width: 12rem;  border: none; margin-left: 200px;">
+                    <img src="/assets/uploads/images/spiderman.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Spider-Man:Across The Spider-Verse</h5>
+                      <p class="card-text">UA  <br> Telugu,Hindi,Tamil,English</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-4"  id="four">
+                <div class="card" style="width: 12rem;  border: none;  margin-left: 310px;">
+                    <img src="/assets/uploads/images/aquaman.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Aquaman and the Lost Kingdom</h5>
+                      <p   class="card-text">UA  Telugu,Hindi,Tamil,English</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- row 5 -->
+
+           <div class="container text-center w-50  mt-5">
+            <div class="row">
+              <div class="col-4" >
+                <div class="card" style="width: 12rem;  border: none; margin-left: 20px;">
+                    <img src="/assets/uploads/images/shivarayancha chhava.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Shivrayancha Chhava</h5>
+                      <p class="card-text">UA  <br> Marathi</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-1">
+                <div class="card" style="width: 12rem;  border: none;  margin-left: 30px;">
+                    <img src="/assets/uploads/images/kasoombo.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Kasoombo</h5>
+                      <p class="card-text">UA  <br> Gujarathi</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-2"   id="three">
+                <div class="card" style="width: 12rem;  border: none; margin-left: 200px;">
+                    <img src="/assets/uploads/images/dashmi.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Dashmi</h5>
+                      <p class="card-text">UA  <br> Hindi</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-4" id="four">
+                <div class="card" style="width: 12rem;  border: none;  margin-left: 310px;">
+                    <img src="/assets/uploads/images/wonka.avif" height="300px;" class="card-img-top" alt="..." style="border: 0px solid; border-radius: 8px ;">
+                    <div class="card-body">
+                      <h5 class="card-title">Wonka</h5>
+                      <p   class="card-text">U  English</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div> 
+ 
+          <!-- home/movies -->
+          <div class="container px-4">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-3" style="border: none;">  
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-lg-6 text-start">
+                      
+                    </div>
+                    <div class="col  col-lg-3 text-start" style="background-color: whitesmoke;">
+                      First in DOM, no order applied
+                    </div>
+                    <div class="col order-5  col-lg-3 col-lg-pe-4 text-end" style="background-color: whitesmoke;">
+                      Second in DOM, with a larger order
+                    </div>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+                
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

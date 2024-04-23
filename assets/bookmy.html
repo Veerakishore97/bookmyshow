@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/bookmy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<!-- nav1 -->
+  <div class="container " id="nav1">
+    <div class="row">
+      <div class="col-3">
+        <img src="/assets/uploads/logos/WhatsApp Image 2024-02-22 at 15.26.18_3659e54f.jpg" height="60px" width="120px" />
+      </div>
+      <div class="col-8 col-lg-8">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+
+           
+
+
+            <div class="collapse navbar-collapse d-md-block" id="navbarNavDropdown" style="margin-left: -190px;">
+              <ul class="navbar-nav">
+                <div>
+                <input class="form-control" type="search"
+                  placeholder="Search for Movies,Events,Plays,Sports and Activities" aria-label="Search"
+                  style="width: 500px; margin-left: 120px;padding-left: 40px;" />
+                <i class="fa fa-search" id="search" style="margin-left: 130px;margin-top: -25px;"></i>
+              </div>
+                <li class="nav-item dropdown d-md-none d-lg-block">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 100px">
+                    Hyderabad
+                  </a>
+                   <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink" style="margin-left: 100px">
+                    <li><a class="dropdown-item" href="#">Bengaluru</a></li>
+                    <li><a class="dropdown-item" href="#">Pune</a></li>
+                    <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                  </ul> 
+                </li>
+              </ul>
+            </div>
+            <div class="col-1 col-lg-2 col-md-2 d-md-none d-lg-block">
+            <button type="button " class="btn btn-danger " style="color: white;">
+              Sign in
+            </button>
+          
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+<!-- nav2 -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(234, 231, 231);">
+    <div class="container-fluid d-sm-none   d-lg-block">
+
+      <div style="margin-left: 40px;" class="collapse navbar-collapse" id="navbarText">
+        <div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a style="opacity: 0.8;" class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stream</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+
+        </ul>
+
+      </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 300px;">
+          <li class="nav-item">
+            <a style="opacity: 0.8;" class="nav-link active" aria-current="page" href="#">ListYourShow</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Corporates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gift Cards</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+    <!-- banner -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="border-radius: 10px;" src="/assets/uploads/banners/1banner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img style="border-radius: 10px;" src="/assets/uploads/banners/2banner.avif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img style="border-radius: 10px;" src="/assets/uploads/banners/31banner.avif" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- filters -->
+
+    <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+            <div class="col mt-5">
+                <div class="p-3">
+                    <h3>Filters</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- languages -->
+
+    <div class="container px-4 text-center ">
+        <div class="row gx-5">
+            <div class="col" >
+                <div class="p-3" >
+                    <!-- dropdown -->
+                    <div class="dropdown" >
+                        <a class="btn  dropdown-toggle" style="background-color: whitesmoke;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Languages &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clear
+                        </a>
+                        <ul class="dropdown-menu border-none">
+                            <li><a class="dropdown-item" href="#">Telugu</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Hindi</a></li>
+                            <li><a class="dropdown-item" href="#">Malayalam</a></li>
+                            <li><a class="dropdown-item" href="#">Japanese</a></li>
+                            <li><a class="dropdown-item" href="#">Gujarathi</a></li>
+                            <li><a class="dropdown-item" href="#">Marathi</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <!-- dropdown -->
+                    <div class="dropdown">
+                        <a class="btn  dropdown-toggle" style="background-color:whitesmoke;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                             Genres &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Clear
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Thriller</a></li>
+                            <li><a class="dropdown-item" href="#">Comedy</a></li>
+                            <li><a class="dropdown-item"  href="#">Romantic</a></li>
+                            <li><a class="dropdown-item" href="#">Adventure</a></li>
+                            <li><a class="dropdown-item" href="#">Fantacy</a></li>
+                            <li><a class="dropdown-item" href="#">Musical</a></li>
+                            <li><a class="dropdown-item" href="#">Biography</a></li>
+                            <li><a class="dropdown-item" href="#">Horror</a></li>
+                            <li><a class="dropdown-item" href="#">Superhero</a></li>
+                            <li><a class="dropdown-item" href="#">Anime</a></li>
+                            <li><a class="dropdown-item" href="#">Classic</a></li>
+                            <li><a class="dropdown-item" href="#">Family</a></li>
+                            <li><a class="dropdown-item" href="#">Mystery</a></li>
+                            <li><a class="dropdown-item" href="#">Suspence</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <!-- dropdown -->
+                    <div class="dropdown">
+                        <a class="btn   dropdown-toggle" style="background-color: whitesmoke;" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Format &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Clear
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">2D</a></li>
+                            <li><a class="dropdown-item" href="#">IMX 2D</a></li>
+                            <li><a class="dropdown-item" href="#">4DX</a></li>
+                            <li><a class="dropdown-item" href="#">3D</a></li>
+                            <li><a class="dropdown-item" href="#">MX4D</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <!-- dropdown -->
+                    <div class="dropdown">
+                        <a class="btn " style="background-color:white; width: 250px; border: 1px solid; color: red;"  href="https://in.bookmyshow.com/hyderabad/cinemas" target="_blank" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" >
+                            Browse by Cinemas
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- movies in hyd -->
+
+    <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+            <div class="col mt-5 col-sm-12">
+                <div class="p-3">
+                    <h3>Movies in Hyderabad</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- 9 buttons -->
+    <div class="container px-4 text-center">
+      <div class="row gx-5">
+        <div class="col">
+         <div class="p-3">
+          <!-- 11 -->
+          <div class="container text-center">
+              <div class="row align-items-start">
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red;
+                  border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Telugu</button>
+                  </a>
+                </div>
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">English</button>
+                  </a>
+                </div>
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color:red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Hindi</button>
+                  </a>
+                </div>
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Japanese</button>
+                  </a>
+                </div>
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Malayalam</button>
+                  </a>
+                </div>
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">German</button>
+                  </a>
+                </div> <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Gujarathi</button>
+                  </a>
+                </div>
+                <div class="col mt-4">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Marathi</button>
+                  </a>
+                </div>
+                <div class="col mt-4 ">
+                  <a class="p-1 rounded" href="#simple-list-item-1"><button type="button" class="btn " style="background-color: whitesmoke;color: red; border-radius: 20px; border: 1px solid rgba(219, 209, 209, 0.58);">Tamil</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- coming soon -->
+    <div class="container px-4 text-center">
+        <div class="row gx-5 mt-5" style="background-color: whitesmoke;">
+            <div class="col">
+                <div class="p-3">
+                    <h3>Coming Soon</h3>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <a style="color: red;" class="navbar-brand" href="https://in.bookmyshow.com/explore/upcoming-movies-hyderabad?referrerBase=movies" target="_blank">Explore Upcoming Movies--></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+
+    <div class="container overflow-hidden text-center">
+        <!-- row1 -->
+        <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/hanuman.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hanuman</h5>
+                  <p class="card-text">UA
+                    Telugu,Hindi,Tamil,Kannada...
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/Eagle.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eagle</h5>
+                  <p class="card-text">UA
+                    Telugu
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/aquaman.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Aquaman and the Lost Kingdom</h5>
+                  <p class="card-text">UA
+                    English,Hindi,Telugu,Tamil.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/biravakona.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ooru Peru Bhairavakona</h5>
+                  <p class="card-text">UA   <br>
+                    Telugu
+                  </p>
+                  
+                </div>
+              </div>
+        </div>
+
+        <!-- row2 -->
+
+        <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/bob marley.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bob Marley:One Love</h5>
+                  <p class="card-text">UA <br>
+                  English</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/spiderman.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Spider-Man:Across TheSpider-Verse</h5>
+                  <p class="card-text">UA <br>English,Hindi,Tamil,Telugu.</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/titanic.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Titanic</h5>
+                  <p class="card-text">UA <br>English, Hindi,Tamil</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/surya krishnan.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">surya S/O Krishnan</h5>
+                  <p class="card-text">U <br>Telugu</p>
+                </div>
+              </div>
+        </div>
+        <!-- row 3 -->
+        <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/fighter.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fighter</h5>
+                  <p class="card-text">UA <br> Hindi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/dune.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dune:Part Two</h5>
+                  <p class="card-text">UA <br>English,Hindi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/kasoombo.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kasoombo</h5>
+                  <p class="card-text">UA <br> Gujarathi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/land of bad.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Land Of Bad</h5>
+                  <p class="card-text">UA <br>English</p>
+                </div>
+              </div>
+        </div>
+        <!-- row 4 -->
+        <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/madame web.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Madame Web</h5>
+                  <p class="card-text">UA <br>English,Hindi,Tamil</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/migration.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Migration</h5>
+                  <p class="card-text">UA <br>English</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/okkadu.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Okkadu</h5>
+                  <p class="card-text">U <br>Telugu</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/oppenhimer.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Oppenhimer</h5>
+                  <p class="card-text">UA <br>English,Hindi</p>
+                </div>
+              </div>
+        </div>
+
+        <!-- row 5 -->
+        <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/oye.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Oye</h5>
+                  <p class="card-text">U <br>Telugu</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 " style="width: 18rem;">
+                <img src="/assets/uploads/images/shivarayancha chhava.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Shivrayancha Chhava</h5>
+                  <p class="card-text">UA <br> Marathi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/siddarth roy.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Siddarth Roy</h5>
+                  <p class="card-text">A<br>Telugu</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25" style="width: 18rem;">
+                <img src="/assets/uploads/images/wonka.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Wonka</h5>
+                  <p class="card-text">UA <br>Englishk</p>
+                </div>
+              </div>
+        </div>
+
+   
+
+           <!-- row 6 -->
+           <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00388033-fcysjahehz-portrait1.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Demon Slayer:Kimetsu no Yaiba-to The...</h5>
+                  <p class="card-text">UA <br>Japanese,English</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00379050-nncvqtgwdr-portrait2.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Crakk-Jeetega Toh Jiyegaa</h5>
+                  <p class="card-text">UA <br>Hindi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00369210-hphaarqywg-portrait3.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sundaram Master</h5>
+                  <p class="card-text">UA <br>Telugu</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00359069-jlrtawxgev-portrait4.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lal Salaam</h5>
+                  <p class="card-text">UA <br>Tamil,Telugu,Hindi</p>
+                  
+                </div>
+              </div>
+        </div>
+
+        <!-- row7 -->
+
+        <div class="row gx-5 mt-5">
+            <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00000652-yyjltgbwll-portrait5.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dilwale Dulhaina Le Jayenga</h5>
+                  <p class="card-text">U <br>Hindi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00386670-epsebvgzmv-portrait6.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Manjummel Boys</h5>
+                  <p class="card-text">U <br>Malayalam</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00003697-qfdhkmhuch-portrait7.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Veer Zaara</h5>
+                  <p class="card-text">U <br>Hindi</p>
+                </div>
+              </div>
+
+              <div class="card border-white col-lg-3 w-25 col-md-6" style="width: 18rem;">
+                <img src="/assets/uploads/images/et00352085-lsnlbwbnjw-portrait8.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Suzume</h5>
+                  <p class="card-text">UA <br>Japanese,Hindi</p>
+                  
+                </div>
+              </div>
+        </div>
+
+
+    </div>
+
+           
+
+    <!-- footer -->
+
+    <div class="container-fluid px-4 text-center bg-light" id="bms">
+        <div class="row gx-5" style="background-color: whitesmoke;">
+          <div class="col d-flex justify-content-left">
+           <div class="p-3">Home-->Movies</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enjoy online -->
+
+   
+
+
+      <div class="container-fluid text-center"  id="bms">
+        <div class="row g-2 " style="display: block;" >
+          <div class="col-6 col-lg-12">
+            <div class="p-3 col-md-12 d-flex justify-content-left"><h5>Enjoy Online Ticket Booking for Movies in HyderabadWith BookMyShow</h5>
+        </div>
+          </div>
+          <div class="col-6 col-lg-12 d-flex justify-content-flex-start">
+            <div class="p-3" style="margin-top: -40px;">if you are planning for movie ticket booking for the latest movies in Mumbai, don't look any further. Now it is easy to get on with online ticket booking with BookMyShow. Your one-stop solution of movies to watch this weekend.Everyone enjoys watching their favourate movies on the big screen, and the excitement of watching it with friends is unparalleled. if you have been eagerly waiting for a movie that you can watch with your friends and family, now you know where to get tickets from. When you watch a flim in a cinema theatre, you get to watch it on a massive screen with surround-sound, and that enanches your movie-watching experiance. Thus, allowing you to be a part of the actual movie. Get to know about all movies and movie trailers to watch here. Also,Know how to book movie tickets.</div>
+          </div>
+          <div class="col-6 col-lg-12 d-flex justify-content-left">
+            <div class="p-3" style="margin-top: -20px;"><h5>Latest Movies To Watch in Hyderabad With Family And Friends</h5></div>
+          </div>
+          <div class="col-6 col-lg-12 d-flex justify-content-left">
+            <div class="p-3"   style="margin-top: -40px;">if you are planning for movie ticket booking for the latest movies in Mumbai, don't look any further. Now it is easy to get on with online ticket booking with BookMyShow. Your one-stop solution of movies to watch this weekend.Everyone enjoys watching their favourate movies on the big screen, and the excitement of watching it with friends is unparalleled. if you have been eagerly waiting for a movie that you can watch with your friends and family, now you know where to get tickets from. When you watch a flim in a cinema theatre, you get to watch it on a massive screen with surround-sound, and that enanches your movie-watching experiance. Thus, allowing you to be a part of the actual movie. Get to know about all movies and movie trailers to watch here. Also,Know how to book movie tickets.</div>
+          </div>
+
+          <div class="col-6 col-lg-12 d-flex justify-content-left">
+            <div class="p-3" style="margin-top: -20px;"><h5>Upcoming Movies To Watch in Hyderabad With  amily nd riends</h5></div>
+          </div>
+          <div class="col-6 col-lg-12 d-flex justify-content-left">
+            <div class="p-3"   style="margin-top: -40px;">Each year the cinema world is enlightened with the latest movie trailers, increasing the excitement among everyone. This year,just like the previous year, you have been waiting for some of the biggest Bollywood movies to be released with the biggest star cast. Enjoy your favourate movie, not just with your friends , but in a cinema hall Mumbai that will be filled with like-minded people. Be a part of everyone's reaction.check out all the latest movie trailershere!</div>
+          </div>
+
+
+          <div class="col-6 col-lg-12 d-flex justify-content-left">
+            <div class="p-3"  style="margin-top: -20px;"><h5>Exciting Tollywood & Kollywood Movies To Book Tickets</h5></div>
+          </div>
+          <div class="col-6 col-lg-12 d-flex justify-content-left">
+            <div class="p-3"   style="margin-top: -40px;">Just like Bollywood and Hollywood movies, Tollywood seems to have a few good movie showtimes as well. you can plan for movies to watch this Friday with these tollywood movies beacuse the star cast is superb, and the storylines of these movies have already started making news. it will be super intresting to watch <a class="navbar-brand" style="color: red;" href="https://in.bookmyshow.com/person/bonnie-aarons/4368" target="_blank">Bonnie Aarons.</a> Keep an eye on the release date of <a class="navbar-brand" style="color: red;" href="https://in.bookmyshow.com/movies/the-nun-ii/ET00363916" target="_blank">The Nun ll</a> in Mumbai. Don't miss any upcoming movies.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- FOOTER -->
+
+      <div class="footer  text-light">
+        <div class="container-fluid ">
+    
+            <div class="row">
+                <div class="d-flex justify-content-around align-items-center pt-3 ">
+                    <div class=" d-flex justify-content-evenly align-items-center ">
+                        <img src="/assets/uploads/logos/hut.svg" alt="">
+                        <b class="px-5">List your Show</b>
+                        <p class="pt-3 d-none d-lg-block">Got a show ,event,activity or a great experience?partner with us & get listed on BookMy Show</p>
+                    </div>
+                    <div>
+                        <button type="button " class="btn btn-danger" style="color: white;">Contact today</button>
+    
+                    </div>
+                </div>
+            </div>
+     
+            <div class="row bg-secondary text-dark M-3">
+               <div class="col-lg-4">
+                <div class=" d-flex justify-content-center align-items-center ">
+                    
+                    <div style=" margin-top: 20px;">
+                        <svg  style="height: 100px;" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" id="icon-callcenter" width="100%" height="100%"><path d="M68.8 29.4c0-10.4-8.4-18.8-18.8-18.8S31.2 19 31.2 29.4 39.6 48.2 50 48.2s18.8-8.4 18.8-18.8zm-35.8 0c0-9.3 7.6-17 17-17 9.3 0 17 7.6 17 17 0 9.3-7.6 17-17 17-9.3 0-17-7.6-17-17z"></path><path d="M24 30.3c.5 0 .9-.4.9-.9C24.9 15.6 36.2 4.3 50 4.3s25.1 11.3 25.1 25.1c0 13.1-10.5 28.3-24.2 29v-3.9c0-.5-.4-.9-.9-.9s-.9.4-.9.9v8.6c0 .5.4.9.9.9s.9-.4.9-.9v-2.9c14.7-.7 26-16.8 26-30.8C76.9 14.6 64.8 2.5 50 2.5S23.1 14.6 23.1 29.4c0 .5.4.9.9.9z"></path><path d="M68.1 63c-.6-.2-1.2-.3-1.9-.3-.9 0-2.3.7-4.9 2.1-3.2 1.7-7.7 4-10.6 4-3.2 0-8-2.3-11.5-4-2.8-1.3-4.3-2-5.3-2-.7 0-1.3.1-1.9.3C16.7 68.2 11.2 86 11.2 96.7c0 .5.4.9.9.9H88c.5 0 .9-.4.9-.9 0-10.8-5.6-28.6-20.8-33.7zM13 95.7c.3-12.1 7.2-26.8 19.6-30.9.4-.1.8-.2 1.3-.2.6 0 2.7 1 4.5 1.9 3.9 1.9 8.7 4.2 12.3 4.2 3.3 0 7.8-2.3 11.4-4.2 1.6-.8 3.6-1.9 4.1-1.9s.9.1 1.3.2C79.9 68.9 86.7 83.6 87 95.7H13zm3.6-55.3c.5 0 .9-.4.9-.9V26.3c0-.5-.4-.9-.9-.9s-.9.4-.9.9v13.2c0 .5.4.9.9.9zm66.8 0c.5 0 .9-.4.9-.9V26.3c0-.5-.4-.9-.9-.9s-.9.4-.9.9v13.2c-.1.5.4.9.9.9z"></path></svg>
+                        <!-- <img src="/assets/uploads/images/cus 2.webp" alt="" style="height: 80px; width: 80px; filter: grayscale(100);"> -->
+                        <p>24\7 CUSTOMER SERVICE</p>
+                    </div>
+                
+                    
+                </div>
+               </div>
+               <div class="col-lg-4">
+                <div class=" d-flex justify-content-center align-items-center  ">
+                    <div style=" margin-top: 20px;">
+                         <svg   style="height:100px"            xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 102 102" id="icon-resend" width="100%" height="100%"><path d="M92.1 69l-5.6-13.9a1 1 0 0 0-1.1-.5c-1.9.8-4.1-.2-4.8-2.1-.4-.9-.4-1.9 0-2.8.4-.9 1.1-1.6 2-2 .2-.1.4-.2.5-.4s.1-.4 0-.6l-5.6-13.9a1 1 0 0 0-1.1-.5L61 38.5l9-20.9c.2-.4 0-.9-.4-1.1L57 11.1c-.4-.2-.9 0-1.1.4a3.3 3.3 0 0 1-4.3 1.8c-.8-.3-1.4-1-1.8-1.8-.3-.8-.3-1.7 0-2.5.1-.2.1-.4 0-.6-.1-.2-.2-.4-.4-.5L36.8 2.6c-.4-.2-.9 0-1.1.4L12.3 58.2l-3.9 1.5c-.2.2-.4.3-.4.5-.1.2-.1.4 0 .6l5.6 13.9c.2.4.7.6 1.1.5 1.9-.7 4.1.2 4.8 2 .4.9.4 1.9 0 2.8s-1.1 1.6-2 2c-.2.1-.4.2-.5.4-.1.2-.1.4 0 .6l5.4 14c.1.2.2.4.4.5.1 0 .2.1.3.1.1 0 .2 0 .3-.1l68.1-27.3c.5-.2.7-.7.6-1.2zM36.9 4.4L48 9.1c-.2 1-.2 2 .2 3 .5 1.2 1.4 2.2 2.7 2.7 2.3 1 4.8.1 6.1-1.9l11.1 4.7-9.3 21.8-4.7 1.9L59 30.2l2.5-5.8c.1-.2.1-.4 0-.6s-.2-.4-.4-.5L38 13.5c-.2-.1-.4-.1-.6 0-.2.1-.4.2-.5.4L19.1 55.5l-4.7 1.9 22.5-53zm-1.4 16.7l.8.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-.8-.3 1.8-4.3 21.6 9.2-1.8 4.3-.8-.4c-.4-.2-.9 0-1.1.4-.2.4 0 .9.4 1.1l.8.3-5.1 12-30.7 12.4 14.2-33.5zM23.7 95.6l-5-12.4c1-.6 1.7-1.4 2.2-2.5.6-1.3.6-2.8 0-4.1-.8-2-2.8-3.4-5-3.4-.4 0-.8 0-1.2.1L9.8 61l66.5-26.7 5 12.4c-1 .6-1.7 1.4-2.2 2.5a4.9 4.9 0 0 0 0 4.1c.8 2 2.8 3.4 5 3.4.4 0 .8 0 1.2-.1l5 12.4-66.6 26.6z"></path><path d="M70 42.1c-.1-.2-.2-.4-.4-.5-.2-.1-.4-.1-.6 0L20.2 61.2a1 1 0 0 0-.5 1.1L30 87.8c.1.2.2.4.4.5.1 0 .2.1.3.1.1 0 .2 0 .3-.1l42.3-17 6.4-2.6c.4-.2.6-.7.5-1.1L70 42.1zm3.5 27.3l-.3-.8a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l.4.8-34.2 13.7-.3-.7a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l.3.8-5.1 2-9.6-23.9 5.1-2 .3.8c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-.3-.8 34.1-13.7.3.8c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-.3-.8 4.9-2 9.6 23.9-4.9 2.1z"></path><path d="M30.6 65.7c-.2-.4-.7-.6-1.1-.5s-.6.7-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm3.5 8.6a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm32.2-22.9a1 1 0 0 0-1.1-.5 1 1 0 0 0-.5 1.1l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1l-1.4-3.3zm1.9 9.3l1.4 3.4c.1.3.4.5.8.5.1 0 .2 0 .3-.1.4-.2.6-.7.5-1.1L69.7 60a1 1 0 0 0-1.1-.5c-.4.2-.6.7-.4 1.2zm-19.5-34l3.1 1.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-3.1-1.3c-.4-.2-.9 0-1.1.4-.3.4-.1.9.4 1.1zm-7.8-3.3l3.1 1.3c.1 0 .2.1.3.1.3 0 .6-.2.8-.5.2-.4 0-.9-.4-1.1l-3.1-1.3c-.4-.2-.9 0-1.1.4-.2.4 0 .9.4 1.1zm13.4 41.4c-.5 0-.8.4-.8.8 0 2.4-2 4.4-4.4 4.4s-4.4-2-4.4-4.4c0-2.3 1.9-4.2 4.2-4.3l-1.6 2.3c-.3.4-.2.9.2 1.2.1.1.3.1.5.1.3 0 .5-.1.7-.4l2.6-3.7c.3-.4.2-.9-.2-1.1L47.5 57c-.4-.3-.9-.2-1.2.2s-.2.9.2 1.2l1.9 1.4c-3 .3-5.4 2.9-5.4 5.9 0 3.3 2.7 6 6 6s6-2.7 6-6c.1-.5-.3-.9-.7-.9z"></path></svg>
+                        <!-- <img src="/assets/uploads/images/movie ticket1.jpg" alt="" style="height: 80px; width: 80px; filter: grayscale(100);"> -->
+                        <p>RESEND BOOKING CONFORMATION</p>
+                        
+                    </div>
+                </div>
+               
+               </div>
+               <div class="col-lg-4">
+                <div class=" d-flex justify-content-center align-items-center ">
+                    <div style="margin-top: 20px;">
+                        <svg  style="height:100px"; xmlns="http://www.w3.org/2000/svg" id="icon-newsletter" viewBox="-1 -1 102 102" width="100%" height="100%"><g id="elnewsletter"><path class="elst0" d="M97.5 90.3V33.6c0-.5-.4-1-1-1H82.9V9.8c0-.5-.4-1-1-1H18.1a1 1 0 0 0-1 1v22.8H3.5a1 1 0 0 0-1 1v56.9c0 .1.1.1.1.2v.1c0 .1.1.1.2.1.1.1.2.1.2.1.1 0 .1 0 .2.1h93.4c.1 0 .3 0 .4-.1 0 0 .1 0 .1-.1.1-.1.2-.1.2-.2v-.1c0-.1.1-.1.1-.2.1 0 .1 0 .1-.1zm-1.9-55.7v53.6L63.9 64.1l18.6-17.7 7.7-7.4c.3-.3.4-.7.2-1.1-.1-.4-.5-.6-.9-.6h-6.8v-2.7h12.9zM50.2 56.1l43.4 33.1H6.4l43.8-33.1zm32.7-16.8h4.4l-4.4 4.1v-4.1zM19.1 10.8h61.8v34.5L62.4 62.9l-11.6-8.8c-.3-.3-.8-.3-1.2 0L37.8 63 19.1 45.3V10.8zm-2 32.6l-4.4-4.1h4.4v4.1zm0-8.8v2.7h-6.8c-.4 0-.8.2-.9.6-.1.4-.1.8.2 1.1l26.5 25.2-31.8 24V34.6h12.8z"></path><path class="elst0" d="M28.9 22.5h42.7a1 1 0 0 0 0-2H28.9c-.5 0-1 .4-1 1s.4 1 1 1zm0 10h42.7a1 1 0 0 0 0-2H28.9a1 1 0 0 0 0 2zm0 9.9h42.7a1 1 0 0 0 0-2H28.9c-.5 0-1 .4-1 1s.4 1 1 1z"></path></g></svg>
+                        <!-- <img src="/assets/uploads/images/letter.jpg" alt="" style="height: 80px; width: 80px; filter: grayscale(100);"> -->
+                        <p>SUBSCRIBE TO THE NEWSLETTER</p>
+                        
+                    </div>
+                    
+                </div>
+               </div>
+              
+            </div>
+            
+            <div class="row ">
+                <div class="list  d-none d-lg-block">
+                    <h6>MOVIES NOW SHOWING IN HYDERABAD</h6>
+                    <p>Ooru peru Bhairavakond| Eagle | Teri Baaton Mein Aisa Uijha Jiya | Hanu-Man |Madame Web | Oye | Finger |
+                        Raajadhani Files | Bramayugam</p>
+                    <h6>UPCOMING MOVIES IN HYDERABAD</h6>
+                    <p>For Regn | Nerve | crakk | article 370 | dail 100 | sada ronger prithibi | nasoor | operation lalla </p>
+                    <h6>MOVIES BY GENRE</h6>
+                    <P>drama movies | action movies | thriller movies | romantic movies | comeday movies | adventure movies |
+                        fantancy movies|</P>
+                    <h6>MOVIES BY LANGUAGE</h6>
+                    <p>movies in telugu |movies in english | movies in hindi | movies in malayalam | movies in japanese |</p>
+                    <h6> SPORTS EVENTS IN HYDERABAD</h6>
+                    <p>cricket| football | badminton| basketball | base ball| boat race | bowlong |boxing </p>
+                    <h6>EVENTS IN TOP CITIES</h6>
+                    <p>cinemas in mumbai | cinema in delhi-NCR |cinemas in chennai | cinemas in bengaluru | cenimad in hyderabad
+                        |cinimas in kolkata |</p>
+                    <h6> CINEMAS IN TOP CITIES</h6>
+                    <p>cinemas in mumbai | cinema in delhi-NCR |cinemas in chennai | cinemas in bengaluru | cenimad in hyderabad
+                        |cinimas in kolkata |</p>
+                    <h6>PLAYS IN TOP CITIES</h6>
+                    <p> plays in mumbai | plays in delhi-NCR | plays in chennai | plays in bengaluru |plays in hyderabad |plays
+                        in kolkata |</p>
+                    <h6>ACTIVITIES IN TOP CITIES</h6>
+                    <p>activities in mumbai | activities in delhi-NCR | activities in chennai | activitiesin bengaluru |
+                        activities in hyderabad | activitiesin kolkata |</p>
+                    <h6>MOVIES NOW SHOWING</h6>
+                    <p>fighter| shivrayancha chhava | madame web | ooru peru bhairavakonda |siren | kasoombo | eagle|</p>
+                    <h6>COUNTRIES</h6>
+                    <p>indinesia | singapore | UAE | sri lanka | west indies </p>
+                    <h6>HELP</h6>
+                    <p>about us | contact us | current opening | press release | press coverage | sitemap | faQs | terms and
+                        conditions | privacy policy</p>
+                    <h6>BOOKMYSHOW EXCLUSIVES</h6>
+                    <p>lollapalooza india | superstar | bookasmile | corporate vochers | gift cards | list my show | offers |
+                        trailess</p>
+                     
+                    <!-- <div class="icons"> -->
+                        
+                    </div>
+                    
+                </div>
+               
+            </div>
+    
+    
+            <div class=" ">
+                <div class=" d-flex justify-content-center align-items-center pt-3 ">
+                    <img src="/assets/uploads/images/bookmy show.svg" alt="">
+                    
+                </div>
+                 <hr style="margin-top:-20px; width: 90%; margin-left: 50px;">       
+            </div>
+    
+            <div class="">
+                <div class=" d-flex justify-content-center gap-4 py-4">
+                        <a class="text-dark bg-light rounded-circle   px-2 py-1" href="https://www.facebook.com/login.php" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="text-dark bg-light rounded-circle   px-2 py-1" href="https://twitter.com/%23%21/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="text-dark bg-light rounded-circle   px-2 py-1" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="text-dark bg-light rounded-circle   px-2 py-1" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="text-dark bg-light rounded-circle   px-2 py-1" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    
+                    
+                </div>
+               
+            </div>
+             <div style="text-align: center; font-size: 12px; line-height: 10px; ">
+                 <p>Copyright 2024 c Bigtree Entertainment pvt ltd </p>
+                 <p>the content and images used on this site are copyright protected and copyrights vests with the respective owners.the usages of the content and website is intended to promote the works annd no endorsement of the artist shall be implied.unauthorised use is prohibited and</p>
+                 <p>punishable by law.</p>
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
